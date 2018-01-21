@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="insanity" fetch="https://github.com/ejjohnson1999/"
-revision="lineage-15.1" />
+<remote name="insanity" fetch="https://github.com/ejjohnson1999/" />
 
-<project path="android" name="android" remote="insanity" />
-<project path="device/essential/mata" name="device_essential_mata" remote="insanity" />
-<project path="kernel/essential/msm8998" name="kernel_essential_mata" remote="insanity" />
+<project path="android" name="android" remote="insanity" revision="lineage-15.1" />
+<project path="device/essential/mata" name="device_essential_mata" remote="insanity" revision="lineage-15.1" />
+<project path="kernel/essential/msm8998" name="kernel_essential_mata" remote="insanity" revision="lineage-15.1" />
 
 </manifest>
