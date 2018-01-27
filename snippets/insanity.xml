@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="me" fetch="git@github.com:ejjohnson1999" />
+<remote name="me" fetch="https://github.com/ejjohnson1999/" />
 
 <project path="android" name="android" remote="me" revision="lineage-15.1" />
 <project path="device/essential/mata" name="device_essential_mata" remote="me" revision="me" />
