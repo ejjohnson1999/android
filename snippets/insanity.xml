@@ -2,7 +2,7 @@
 <manifest>
 
 <remote name="me" fetch="https://github.com/ejjohnson1999/" />
-<remote name="me==los" fetch="https://github.com/lineageos/" />
+<remote name="los" fetch="https://github.com/lineageos/" />
 
 
 <project path="android" name="android" remote="me" revision="lineage-15.1" />
