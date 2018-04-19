@@ -2,9 +2,12 @@
 <manifest>
 
 <remote name="me" fetch="https://github.com/ejjohnson1999/" />
+<remote name="me==los" fetch="https://github.com/lineageos/" />
+
 
 <project path="android" name="android" remote="me" revision="lineage-15.1" />
 <project path="device/essential/mata" name="device_essential_mata" remote="me" revision="lineage-15.1" />
 <project path="kernel/essential/msm8998" name="kernel_essential_msm8998" remote="me" revision="lineage-15.1" />
+<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" revision="lineage-15.1" />
 
 </manifest>
